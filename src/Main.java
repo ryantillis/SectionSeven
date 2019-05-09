@@ -11,20 +11,31 @@ public class Main {
 //        thePC.powerUp();
 
 
-        Wall wall1 = new Wall("West");
-        Wall wall2 = new Wall("East");
-        Wall wall3 = new Wall("North");
-        Wall wall4 = new Wall("South");
+//        Wall wall1 = new Wall("West");
+//        Wall wall2 = new Wall("East");
+//        Wall wall3 = new Wall("North");
+//        Wall wall4 = new Wall("South");
+//
+//        Ceiling ceiling = new Ceiling(12,"Red");
+//
+//        Bed bed = new Bed("Modern", 4,3,2,1);
+//
+//        Lamp lamp = new Lamp("Classic", false, 7500);
+//
+//        Bedroom bedroom = new Bedroom("dasBedroom", wall1,wall2,wall3,wall4, ceiling, bed, lamp);
+//
+//        bedroom.makeBed();
 
-        Ceiling ceiling = new Ceiling(12,"Red");
+//        Player player = new Player();
+//        player.name = "Tim";
+//        player.health = 20;
+//        player.weapon = "Sword";
+//
+//        int damage = 10;
+//        player.loseHealth(damage);
+//        System.out.println(player.healthRemaining());
 
-        Bed bed = new Bed("Modern", 4,3,2,1);
 
-        Lamp lamp = new Lamp("Classic", false, 7500);
-
-        Bedroom bedroom = new Bedroom("dasBedroom", wall1,wall2,wall3,wall4, ceiling, bed, lamp);
-
-        bedroom.makeBed();
 
     }
 
